@@ -1,0 +1,11 @@
+﻿Requirement_id,Job_id,Skills_rq,Work_experience,Minimal_education
+1,1,java c++,Amazon,B
+2,1,python c,Facebook,M
+1,2,java c,Facebook,M
+2,2,python c++,Microsoft,B
+1,3,java c++,Amazon,B
+2,3,java c++,Facebook,P
+1,4,java c++,Microsoft,B
+1,5,java c++,Microsoft,B
+1,6,java c++,Microsoft,B
+1,7,java c++,Microsoft,B

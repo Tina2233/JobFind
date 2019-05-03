@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title> Add a Job </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/stylesheets/main.css">
+<link rel="stylesheet" href="form8.css">
+
+</head>
+<body>
+<div class="center">
+<div class="form-style-8">
+<h2 align="center"> Add a Job </h2>
+<div style="width: 30%; margin:25px auto;">
+
+
+<form action="add_job.php" method="post">
+	<div class="form-group">
+        Job ID: <input class="form-control" type="number" name="Job_id" placeholder="Job_id" min="1" step="1">
+    </div>
+    <div class="form-group">
+        Company ID: <input class="form-control" type="number" name="Company_id" placeholder="Company_id" min="1" step="1">
+    </div>
+	<div class="form-group">
+	    Position: <input class="form-control" type="text" name="Position" placeholder="eg. systems_programmer">
+	</div>
+	<div class="form-group">
+	    Property: <input class="form-control" type="text" name="Property" placeholder="full-time / part-time">
+	</div>
+	<div class="form-group">
+	    Category: <input class="form-control" type="text" name="Category" placeholder="eg. engineering">
+	</div>
+    <div class="form-group">
+        Application Deadline: <input class="form-control" type="number" name="Application_deadline" placeholder="YYYYMMDD" length="8">
+    </div>
+    <div class="form-group">
+	    Location: <input class="form-control" type="text" name="Location" placeholder="eg. Rochester">
+	</div>
+	<button type="submit" class="btn btn-default">submit</button>
+
+</form>
+</div>
+</div>
+</body>
+</html>
