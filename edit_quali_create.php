@@ -33,13 +33,13 @@
         </div> -->
 	
 	    <div class="form-group">
-	        Skills_ql: <input class="form-control" type="text" name="Skills_ql" placeholder="L/S/R/W" value=<?php echo $row['Skills_ql']?>>
+	        Skills_ql: <input class="form-control" type="text" name="Skills_ql" placeholder="eg. java,c (splitted by comma)" value="<?php echo $row['Skills_ql']?>">
 	    </div>
 	    <div class="form-group">
-	        Project: <input class="form-control" type="text" name="Project" placeholder="eg. A" value=<?php echo $row['Project']?>>
+	        Project: <input class="form-control" type="text" name="Project" placeholder="eg. A" value="<?php echo $row['Project']?>">
 	    </div>
 	    <div class="form-group">
-	        Work Experience: <input class="form-control" type="text" name="Work_experience" placeholder="eg. Amazon" value=<?php echo $row['Work_experience']?>>
+	        Work Experience: <input class="form-control" type="text" name="Work_experience" placeholder="eg. Amazon" value="<?php echo $row['Work_experience']?>">
 	    </div>
 
 	    <button type="submit" class="btn btn-default">submit</button>
@@ -72,7 +72,7 @@
         </div> -->
 	
 	    <div class="form-group">
-	        Skills_ql: <input class="form-control" type="text" name="Skills_ql" placeholder="L/S/R/W" value=<?php echo $row['Skills_ql']?>>
+	        Skills_ql: <input class="form-control" type="text" name="Skills_ql" placeholder="eg. java,c (splitted by comma)" value=<?php echo $row['Skills_ql']?>>
 	    </div>
 	    <div class="form-group">
 	        Project: <input class="form-control" type="text" name="Project" placeholder="eg. A" value=<?php echo $row['Project']?>>

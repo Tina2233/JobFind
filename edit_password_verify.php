@@ -27,7 +27,7 @@ include('inc/header.php');
             &emsp;
 
             <div class="form-group">
-                <button class="btn btn-lg btn-primary btn-block">Verify</button>
+                <button class="btn btn-lg btn-primary btn-block">Verify & Change</button>
             </div>
             </form>
           </div>

@@ -41,7 +41,8 @@ if($result->num_rows > 0){
      <?php
         while($row = $result->fetch_assoc()){
      ?>
-         <div class="col-md-3 col-sm-6">
+         <!-- <div class="col-md-3 col-sm-6"> -->
+          <div class="col-sm-3"> 
                 <div class="thumbnail">
                    <div class="caption">
                        <h2><?php echo $row['Name']?></h2>
@@ -68,6 +69,7 @@ echo "No posted job yet";
 <?php
 $conn->close();
 ?>  
+    </div>
     </div>
 </body>
 </html>

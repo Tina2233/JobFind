@@ -14,6 +14,52 @@ if ($conn->query($sql) === TRUE) {
 //   echo $_POST['Position'];
 // }
 
+// $sql = "SELECT * FROM Company, Job where Company.Company_id = Job.Company_id";
+// // if ($_POST['Name']) {
+// //   $Name = $_POST['Name'];
+// //     $sql = $sql . "and Name = '$Name' ";
+// // }
+// // if ($_POST['Position']) {
+// //     $Position = $_POST['Position'];
+// //     $sql = $sql . "and Position LIKE '%$Position%' ";
+// //   }
+// if ($_POST['Location']) {
+//     $Location = $_POST['Location'];
+//     $sql = $sql . "and Location LIKE '%$Location%' ";
+//   } else {echo "1";}
+
+
+
+// if ($_POST['Name']) {
+//   $Name = $_POST['Name'];
+// $sql = "SELECT * FROM Company, Job where Name = '$Name' and Company.Company_id = Job.Company_id";
+//   if ($_POST['Position']) {
+//     $Position = $_POST['Position'];
+//     $sql = $sql . "and Position LIKE '%$Position%' ";
+//   if ($_POST['Location']) {
+//     $Location = $_POST['Location'];
+//     $sql = $sql . "and Location LIKE '%$Location%' ";
+//   }
+// }
+  
+// } elseif ($_POST['Position']) {
+//   $Position = $_POST['Position'];
+//   $sql = "SELECT * FROM Company, Job where Position LIKE '%$Position%' and Company.Company_id = Job.Company_id";
+//   if ($_POST['Location']) {
+//     $Location = $_POST['Location'];
+//     $sql = $sql . "and Location LIKE '%$Location%' ";
+//   }
+// } elseif ($_POST['Location']) {
+//   $Location = $_POST['Location'];
+//   $sql = "SELECT * FROM Company, Job where Location LIKE '%$Location%' and Company.Company_id = Job.Company_id";
+// } else{
+//   echo "Please insert at least one condition.";
+//   echo "
+//               <script>
+//                     setTimeout(function(){window.location.href='find_job.php';},200);
+//               </script>";
+//   // please insert at least one condition & go back to the last page
+// }
 if ($_POST['Name']) {
   $Name = $_POST['Name'];
   // $sql = "SELECT * FROM Company, Job where Name = '$Name' ";
@@ -34,7 +80,8 @@ if ($_POST['Name']) {
     }else{
       $sql = "SELECT * FROM Company, Job where Name = '$Name' and Company.Company_id = Job.Company_id;";
     }
-  }
+
+}
 } else{
   if ($_POST['Position']) {
     $Position = $_POST['Position'];
@@ -56,7 +103,6 @@ if ($_POST['Name']) {
   }
 }
 
-
 $result = $conn->query($sql);
 
 if($result->num_rows > 0){
@@ -72,8 +118,8 @@ if($result->num_rows > 0){
          <th>Company Name</th>
          <th>Company Scale</th>
 
-         <th>Job id</th>
-         <th>Company id</th>
+         <!-- <th>Job id</th>
+         <th>Company id</th> -->
          <th>Position</th>
          <th>Property</th>
          <th>Category</th>
@@ -86,8 +132,8 @@ while($row = $result->fetch_assoc()){
       <tr>
           <td><?php echo $row['Name']?></td>
           <td><?php echo $row['Scale']?></td>
-          <td><?php echo $row['Job_id']?></td>
-          <td><?php echo $row['Company_id']?></td>
+          <!-- <td><?php echo $row['Job_id']?></td>
+          <td><?php echo $row['Company_id']?></td> -->
           <td><?php echo $row['Position']?></td>
           <td><?php echo $row['Property']?></td>
           <td><?php echo $row['Category']?></td>

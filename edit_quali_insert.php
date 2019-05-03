@@ -50,7 +50,7 @@ if ($result === TRUE) {
             <?php
     echo "
               <script>
-                    setTimeout(function(){window.location.href='edit_quali_create.php';},800);
+                    setTimeout(function(){window.location.href='home.php';},800);
               </script>";
 
 

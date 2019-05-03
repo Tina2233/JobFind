@@ -1,21 +1,327 @@
 ﻿Job_id,Company_id,Position,Property,Category,Application_deadline,Location,Skills_rq,Description,Minimal_education
-1,1,systems_programmer,full-time,engineering,5/20/19,Rochester,"java,python",Amazon,B
-2,1,systems_programmer,full-time,engineering,5/21/19,Syracuse,"python,c",Facebook,M
-3,1,systems_programmer,part-time,engineering,5/22/19,SF,"java,python,c++",Facebook,M
-4,1,applications_programmer,part-time,engineering,5/23/19,SF,c++,Microsoft,B
-5,1,marketing_assistant,part-time,marketing,5/24/19,SF,"java,c++",Amazon,B
-6,2,systems_programmer,full-time,engineering,5/25/19,Rochester,"java,c++",Facebook,P
-7,2,systems_programmer,full-time,engineering,5/26/19,DC,"java,c++",Microsoft,B
-8,2,telemarketer,full-time,sales,5/27/19,DC,"java,c++",Microsoft,B
-9,2,marketing_assistant,full-time,marketing,5/28/19,SF,"java,c++",Microsoft,B
-10,2,telemarketer,part-time,sales,5/29/19,SF,"java,c++",Microsoft,B
-11,2,systems_programmer,part-time,engineering,5/30/19,Rochester,"java,c++",Amazon,B
-12,3,systems_programmer,full-time,engineering,5/31/19,Rochester,"java,c++",Facebook,M
-13,3,telemarketer,full-time,sales,6/1/19,SF,"java,c++",Facebook,M
-14,3,applications_programmer,full-time,engineering,6/2/19,SF,"java,c++",Microsoft,B
-15,3,marketing_assistant,full-time,marketing,6/3/19,SF,"java,c++",Amazon,B
-16,3,systems_programmer,part-time,engineering,6/4/19,DC,"java,c++",Facebook,P
-17,3,applications_programmer,part-time,engineering,6/5/19,Rochester,"java,c++",Microsoft,B
-18,4,marketing_assistant,full-time,marketing,6/6/19,DC,"java,c++",Microsoft,B
-19,4,telemarketer,part-time,sales,6/7/19,DC,"java,c++",Microsoft,B
-20,4,systems_programmer,part-time,engineering,6/8/19,DC,"java,c++",Microsoft,B
+1,1,Data Analyst,full-time,Program Management,2019-05-20,"Sunnyvale, CA, United States","java,python","java,python",B
+2,1,Supplier Development Engineer (SDE),full-time,Manufacturing & Supply Chain,2019-05-21,"Shanghai, China","python,c","python,c",M
+3,1,Data Analyst,part-time,Technical Solutions,2019-05-22,"Paris, France","java,python,c++","java,python,c++",M
+4,1,Audio Visual (AV) Deployments,part-time,Developer Relations,2019-05-23,"Mountain View, CA, United States",c++,c++,B
+5,1,Survey Lead,part-time,Program Management,2019-05-24,"Salt Lake City, UT, United States","java,c++","java,c++",B
+6,1,Global Supply Chain Manager,full-time,Technical Solutions,2019-05-25,Singapore,"java,c++","java,c++",P
+7,1,Developer Advocate,full-time,Hardware Engineering,2019-05-26,"Los Angeles, CA, United States","java,c++","java,c++",B
+8,1,Quantitative Analyst,full-time,Partnerships,2019-05-27,"Mumbai, India","java,c++","java,c++",B
+9,1,Developer Advocate,full-time,Manufacturing & Supply Chain,2019-05-28,"Hamburg, Germany","java,c++","java,c++",B
+10,1,Quantitative Analyst,part-time,Product & Customer Support,2019-05-29,"Berlin, Germany","java,c++","java,c++",B
+11,1,Supplier Development Engineer (SDE),part-time,Software Engineering,2019-05-30,"Portland, OR, United States","java,c++","java,c++",B
+12,1,Technical Program Manager,full-time,Software Engineering,2019-05-31,"Tokyo, Japan","java,c++","java,c++",M
+13,1,Data Analyst,full-time,Software Engineering,2019-06-01,"Seattle, WA, United States","java,c++","java,c++",M
+14,1,Head of Professional Services,full-time,Software Engineering,2019-06-02,"Seoul, South Korea","java,c++","java,c++",B
+15,1,Partner Sales Engineer,full-time,Technical Solutions,2019-06-03,"Seattle, WA, United States","java,c++","java,c++",B
+16,1,Presales Manager,part-time,Sales & Account Management,2019-06-04,"Seattle, WA, United States","java,c++","java,c++",P
+17,1,Technical Solutions Consultant,part-time,Sales & Account Management,2019-06-05,"Sunnyvale, CA, United States","java,c++","java,c++",B
+18,1,Technical Solutions Consultant,full-time,Sales & Account Management,2019-06-06,"Seattle, WA, United States","java,c++","java,c++",B
+19,1,Field Sales Representative,part-time,Sales Operations,2019-06-07,"Seattle, WA, United States","java,c++","java,c++",B
+20,1,Developer Advocate,part-time,Partnerships,2019-06-08,"Seattle, WA, United States","java,c++","java,c++",B
+21,1,Data Analyst,full-time,Program Management,2019-06-09,"Sunnyvale, CA, United States",sql,sql,P
+22,1,Supplier Development Engineer (SDE),full-time,Program Management,2019-06-10,"Shanghai, China",sql,sql,B
+23,1,Data Analyst,part-time,Software Engineering,2019-06-11,"Paris, France",sql,sql,M
+24,1,Audio Visual (AV) Deployments,part-time,Data Center & Network,2019-06-12,"Mountain View, CA, United States",sql,sql,M
+25,1,Survey Lead,part-time,Data Center & Network,2019-06-13,"Salt Lake City, UT, United States",sql,sql,B
+26,1,Global Supply Chain Manager,full-time,Technical Solutions,2019-06-14,Singapore,sql,sql,B
+27,1,Developer Advocate,full-time,Business Strategy,2019-06-15,"Los Angeles, CA, United States",sql,sql,P
+28,1,Quantitative Analyst,full-time,Manufacturing & Supply Chain,2019-06-16,"Mumbai, India",sql,sql,B
+29,1,Developer Advocate,full-time,Product & Customer Support,2019-06-17,"Hamburg, Germany",sql,sql,B
+30,1,Quantitative Analyst,part-time,Partnerships,2019-06-18,"Berlin, Germany",sql,sql,B
+31,1,Supplier Development Engineer (SDE),part-time,User Experience & Design,2019-06-19,"Portland, OR, United States",sql,sql,B
+32,1,Technical Program Manager,full-time,Program Management,2019-06-20,"Tokyo, Japan",java,java,B
+33,1,Data Analyst,full-time,Program Management,2019-06-21,"Seattle, WA, United States",java,java,M
+34,1,Head of Professional Services,full-time,User Experience & Design,2019-06-22,"Seoul, South Korea",java,java,M
+35,1,Partner Sales Engineer,full-time,Technical Solutions,2019-06-23,"Seattle, WA, United States",java,java,B
+36,1,Presales Manager,part-time,Technical Solutions,2019-06-24,"Seattle, WA, United States",java,java,B
+37,1,Technical Solutions Consultant,part-time,Technical Solutions,2019-06-25,"Sunnyvale, CA, United States",java,java,P
+38,1,Technical Solutions Consultant,full-time,Program Management,2019-06-26,"Seattle, WA, United States",java,java,B
+39,1,Field Sales Representative,part-time,Program Management,2019-06-27,"Seattle, WA, United States",java,java,B
+40,1,Developer Advocate,part-time,Sales Operations,2019-06-28,"Seattle, WA, United States",java,java,B
+41,1,Data Analyst,full-time,Manufacturing & Supply Chain,2019-06-29,"Seattle, WA, United States",java,java,B
+42,1,Supplier Development Engineer (SDE),full-time,Manufacturing & Supply Chain,2019-06-30,"Sunnyvale, CA, United States",java,java,P
+43,1,Data Analyst,part-time,Data Center & Network,2019-07-01,"Sunnyvale, CA, United States",java,java,B
+44,2,Audio Visual (AV) Deployments,part-time,Data Center & Network,2019-07-02,"Sunnyvale, CA, United States",java,java,M
+45,2,Survey Lead,part-time,User Experience & Design,2019-07-03,"Sunnyvale, CA, United States","python,c","python,c",M
+46,2,Global Supply Chain Manager,full-time,Program Management,2019-07-04,"Sunnyvale, CA, United States","python,c","python,c",B
+47,2,Developer Advocate,full-time,Program Management,2019-07-05,"Shanghai, China","python,c","python,c",B
+48,2,Quantitative Analyst,full-time,Manufacturing & Supply Chain,2019-07-06,"Paris, France","python,c","python,c",P
+49,2,Developer Advocate,full-time,Manufacturing & Supply Chain,2019-07-07,"Mountain View, CA, United States","python,c","python,c",B
+50,2,Quantitative Analyst,part-time,User Experience & Design,2019-07-08,"Salt Lake City, UT, United States","python,c","python,c",B
+51,2,Supplier Development Engineer (SDE),part-time,User Experience & Design,2019-07-09,Singapore,"python,c","python,c",B
+52,2,Technical Program Manager,full-time,User Experience & Design,2019-07-10,"Los Angeles, CA, United States","python,c","python,c",B
+53,2,Data Analyst,full-time,User Experience & Design,2019-07-11,"Mumbai, India","python,c","python,c",B
+54,2,Head of Professional Services,full-time,Data Center & Network,2019-07-12,"Hamburg, Germany","python,c","python,c",M
+55,2,Partner Sales Engineer,full-time,Data Center & Network,2019-07-13,"Berlin, Germany","python,c","python,c",M
+56,2,Presales Manager,part-time,Product & Customer Support,2019-07-14,"Portland, OR, United States","python,c","python,c",B
+57,2,Technical Solutions Consultant,part-time,Technical Solutions,2019-07-15,"Tokyo, Japan","python,c","python,c",B
+58,2,Technical Solutions Consultant,full-time,Partnerships,2019-07-16,"Seattle, WA, United States",sql,sql,P
+59,2,Field Sales Representative,part-time,Manufacturing & Supply Chain,2019-07-17,"Seoul, South Korea",sql,sql,B
+60,2,Developer Advocate,part-time,Manufacturing & Supply Chain,2019-07-18,"Seattle, WA, United States",sql,sql,B
+61,2,Data Analyst,full-time,User Experience & Design,2019-07-19,"Seattle, WA, United States",sql,sql,B
+62,2,Supplier Development Engineer (SDE),full-time,Sales Operations,2019-07-20,"Sunnyvale, CA, United States",sql,sql,B
+63,2,Data Analyst,part-time,Data Center & Network,2019-07-21,"Seattle, WA, United States",sql,sql,P
+64,2,Audio Visual (AV) Deployments,part-time,Data Center & Network,2019-05-20,"Seattle, WA, United States",sql,sql,B
+65,2,Survey Lead,part-time,Program Management,2019-05-21,"Seattle, WA, United States",sql,sql,M
+66,2,Global Supply Chain Manager,full-time,Program Management,2019-05-22,"Sunnyvale, CA, United States",sql,sql,M
+67,2,Developer Advocate,full-time,Manufacturing & Supply Chain,2019-05-23,"Shanghai, China",sql,sql,B
+68,2,Quantitative Analyst,full-time,Manufacturing & Supply Chain,2019-05-24,"Paris, France",sql,sql,B
+69,2,Developer Advocate,full-time,Technical Infrastructure,2019-05-25,"Mountain View, CA, United States",java,java,P
+70,2,Quantitative Analyst,part-time,Technical Infrastructure,2019-05-26,"Salt Lake City, UT, United States",java,java,B
+71,2,Supplier Development Engineer (SDE),part-time,User Experience & Design,2019-05-27,Singapore,java,java,B
+72,2,Technical Program Manager,full-time,User Experience & Design,2019-05-28,"Los Angeles, CA, United States",java,java,B
+73,2,Data Analyst,full-time,User Experience & Design,2019-05-29,"Mumbai, India",java,java,B
+74,2,Head of Professional Services,full-time,Technical Solutions,2019-05-30,"Hamburg, Germany",java,java,B
+75,2,Partner Sales Engineer,full-time,User Experience & Design,2019-05-31,"Berlin, Germany",java,java,M
+76,2,Presales Manager,part-time,Sales Operations,2019-06-01,"Portland, OR, United States",java,java,M
+77,2,Technical Solutions Consultant,part-time,Data Center & Network,2019-06-02,"Tokyo, Japan",java,java,B
+78,2,Technical Solutions Consultant,full-time,Data Center & Network,2019-06-03,"Seattle, WA, United States",java,java,B
+79,2,Field Sales Representative,part-time,Product & Customer Support,2019-06-04,"Seoul, South Korea",java,java,P
+80,2,Developer Advocate,part-time,Sales Operations,2019-06-05,"Seattle, WA, United States",java,java,B
+81,2,Field Sales Representative,full-time,Partnerships,2019-06-06,"Seattle, WA, United States",java,java,B
+82,2,Developer Advocate,full-time,Program Management,2019-06-07,"Sunnyvale, CA, United States","r, ruby","r, ruby",B
+83,3,Data Analyst,part-time,Program Management,2019-06-08,"Seattle, WA, United States","r, ruby","r, ruby",B
+84,3,Supplier Development Engineer (SDE),part-time,Program Management,2019-06-09,"Seattle, WA, United States","r, ruby","r, ruby",P
+85,3,Data Analyst,part-time,Technical Solutions,2019-06-10,"Seattle, WA, United States","r, ruby","r, ruby",B
+86,3,Audio Visual (AV) Deployments,full-time,User Experience & Design,2019-06-11,"Seattle, WA, United States","r, ruby","r, ruby",M
+87,3,Survey Lead,full-time,Program Management,2019-06-12,"Sunnyvale, CA, United States","r, ruby","r, ruby",M
+88,3,Global Supply Chain Manager,full-time,Program Management,2019-06-13,"Sunnyvale, CA, United States","r, ruby","r, ruby",B
+89,3,Developer Advocate,full-time,Program Management,2019-06-14,"Sunnyvale, CA, United States","r, ruby","r, ruby",B
+90,3,Quantitative Analyst,part-time,Program Management,2019-06-15,"Sunnyvale, CA, United States","r, ruby","r, ruby",P
+91,3,Developer Advocate,part-time,Manufacturing & Supply Chain,2019-06-16,"Sunnyvale, CA, United States","r, ruby","r, ruby",B
+92,3,Quantitative Analyst,full-time,Manufacturing & Supply Chain,2019-06-17,"Shanghai, China","r, ruby","r, ruby",B
+93,3,Supplier Development Engineer (SDE),full-time,Partnerships,2019-06-18,"Paris, France","r, ruby","r, ruby",B
+94,3,Technical Program Manager,full-time,Partnerships,2019-06-19,"Mountain View, CA, United States",sql,sql,B
+95,3,Data Analyst,full-time,Partnerships,2019-06-20,"Salt Lake City, UT, United States",sql,sql,B
+96,3,Head of Professional Services,part-time,Technical Infrastructure,2019-06-21,Singapore,sql,sql,M
+97,3,Partner Sales Engineer,part-time,Technical Infrastructure,2019-06-22,"Los Angeles, CA, United States",sql,sql,M
+98,3,Presales Manager,full-time,Sales Operations,2019-06-23,"Mumbai, India",sql,sql,B
+99,3,Technical Solutions Consultant,part-time,Business Strategy,2019-06-24,"Hamburg, Germany",sql,sql,B
+100,3,Technical Solutions Consultant,part-time,Data Center & Network,2019-06-25,"Berlin, Germany",sql,sql,P
+101,3,Field Sales Representative,full-time,Data Center & Network,2019-06-26,"Portland, OR, United States",sql,sql,B
+102,3,Developer Advocate,full-time,Data Center & Network,2019-06-27,"Tokyo, Japan",sql,sql,B
+103,3,Data Analyst,part-time,Data Center & Network,2019-06-28,"Seattle, WA, United States",sql,sql,B
+104,3,Supplier Development Engineer (SDE),part-time,Data Center & Network,2019-06-29,"Seoul, South Korea",sql,sql,B
+105,3,Data Analyst,part-time,Data Center & Network,2019-06-30,"Seattle, WA, United States",java,java,P
+106,3,Audio Visual (AV) Deployments,full-time,Technical Solutions,2019-07-01,"Seattle, WA, United States",java,java,B
+107,3,Survey Lead,full-time,User Experience & Design,2019-07-02,"Sunnyvale, CA, United States",java,java,M
+108,3,Global Supply Chain Manager,full-time,Program Management,2019-07-03,"Seattle, WA, United States",java,java,M
+109,3,Developer Advocate,full-time,Program Management,2019-07-04,"Seattle, WA, United States",java,java,B
+110,3,Quantitative Analyst,part-time,Sales Operations,2019-07-05,"Seattle, WA, United States",java,java,B
+111,3,Developer Advocate,part-time,Business Strategy,2019-07-06,"Sunnyvale, CA, United States",java,java,P
+112,3,Quantitative Analyst,full-time,Business Strategy,2019-07-07,"Shanghai, China",java,java,B
+113,3,Supplier Development Engineer (SDE),full-time,Technical Infrastructure,2019-07-08,"Paris, France",java,java,B
+114,3,Technical Program Manager,full-time,Technical Infrastructure,2019-07-09,"Mountain View, CA, United States",java,java,B
+115,3,Data Analyst,full-time,User Experience & Design,2019-07-10,"Salt Lake City, UT, United States",java,java,B
+116,3,Head of Professional Services,part-time,Sales Operations,2019-07-11,Singapore,java,java,B
+117,3,Partner Sales Engineer,part-time,Manufacturing & Supply Chain,2019-07-12,"Los Angeles, CA, United States",java,java,M
+118,3,Presales Manager,full-time,Manufacturing & Supply Chain,2019-07-13,"Mumbai, India","r, ruby","r, ruby",M
+119,3,Technical Solutions Consultant,part-time,Manufacturing & Supply Chain,2019-07-14,"Hamburg, Germany","r, ruby","r, ruby",B
+120,3,Technical Solutions Consultant,part-time,Manufacturing & Supply Chain,2019-07-15,"Berlin, Germany","r, ruby","r, ruby",B
+121,3,Field Sales Representative,full-time,Data Center & Network,2019-07-16,"Portland, OR, United States","r, ruby","r, ruby",P
+122,3,Developer Advocate,full-time,Data Center & Network,2019-07-17,"Tokyo, Japan","r, ruby","r, ruby",B
+123,3,Data Analyst,part-time,Product & Customer Support,2019-07-18,"Seattle, WA, United States","r, ruby","r, ruby",B
+124,3,Supplier Development Engineer (SDE),part-time,Program Management,2019-07-19,"Seoul, South Korea","r, ruby","r, ruby",B
+125,3,Data Analyst,part-time,Program Management,2019-07-20,"Seattle, WA, United States","r, ruby","r, ruby",B
+126,3,Audio Visual (AV) Deployments,full-time,User Experience & Design,2019-07-21,"Seattle, WA, United States","r, ruby","r, ruby",P
+127,3,Survey Lead,full-time,Technical Solutions,2019-05-20,"Sunnyvale, CA, United States","r, ruby","r, ruby",B
+128,3,Global Supply Chain Manager,full-time,Technical Solutions,2019-05-21,"Seattle, WA, United States","r, ruby","r, ruby",M
+129,3,Developer Advocate,full-time,Technical Solutions,2019-05-22,"Seattle, WA, United States","r, ruby","r, ruby",M
+130,3,Quantitative Analyst,part-time,Partnerships,2019-05-23,"Seattle, WA, United States","sas,r","sas,r",B
+131,3,Developer Advocate,part-time,User Experience & Design,2019-05-24,"Seattle, WA, United States","sas,r","sas,r",B
+132,3,Quantitative Analyst,full-time,Data Center & Network,2019-05-25,"Sunnyvale, CA, United States","sas,r","sas,r",P
+133,3,Supplier Development Engineer (SDE),full-time,Data Center & Network,2019-05-26,"Sunnyvale, CA, United States","sas,r","sas,r",B
+134,4,Technical Program Manager,full-time,Technical Solutions,2019-05-27,"Sunnyvale, CA, United States","sas,r","sas,r",B
+135,4,Data Analyst,full-time,Technical Solutions,2019-05-28,"Sunnyvale, CA, United States","sas,r","sas,r",B
+136,4,Head of Professional Services,part-time,Technical Solutions,2019-05-29,"Sunnyvale, CA, United States","sas,r","sas,r",B
+137,4,Partner Sales Engineer,part-time,Program Management,2019-05-30,"Shanghai, China","sas,r","sas,r",B
+138,4,Presales Manager,full-time,Program Management,2019-05-31,"Paris, France","sas,r","sas,r",M
+139,4,Technical Solutions Consultant,part-time,Sales Operations,2019-06-01,"Mountain View, CA, United States","sas,r","sas,r",M
+140,4,Technical Solutions Consultant,part-time,Business Strategy,2019-06-02,"Salt Lake City, UT, United States","sas,r","sas,r",B
+141,4,Field Sales Representative,full-time,Manufacturing & Supply Chain,2019-06-03,Singapore,"sas,r","sas,r",B
+142,4,Developer Advocate,full-time,Manufacturing & Supply Chain,2019-06-04,"Los Angeles, CA, United States","sas,r","sas,r",P
+143,4,Data Analyst,part-time,Technical Infrastructure,2019-06-05,"Mumbai, India","sas,r","sas,r",B
+144,4,Supplier Development Engineer (SDE),part-time,Technical Infrastructure,2019-06-06,"Hamburg, Germany",java,java,B
+145,4,Data Analyst,part-time,Technical Infrastructure,2019-06-07,"Berlin, Germany",java,java,B
+146,4,Audio Visual (AV) Deployments,full-time,Technical Infrastructure,2019-06-08,"Portland, OR, United States",java,java,B
+147,4,Survey Lead,full-time,Technical Infrastructure,2019-06-09,"Tokyo, Japan",java,java,P
+148,4,Global Supply Chain Manager,full-time,Product & Customer Support,2019-06-10,"Seattle, WA, United States",java,java,B
+149,4,Developer Advocate,full-time,Data Center & Network,2019-06-11,"Seoul, South Korea",java,java,M
+150,4,Quantitative Analyst,part-time,Data Center & Network,2019-06-12,"Seattle, WA, United States",java,java,M
+151,4,Developer Advocate,part-time,Partnerships,2019-06-13,"Seattle, WA, United States",java,java,B
+152,4,Quantitative Analyst,full-time,Program Management,2019-06-14,"Sunnyvale, CA, United States",java,java,B
+153,4,Supplier Development Engineer (SDE),full-time,Program Management,2019-06-15,"Seattle, WA, United States",java,java,P
+154,4,Technical Program Manager,full-time,Program Management,2019-06-16,"Seattle, WA, United States",java,java,B
+155,4,Data Analyst,full-time,Program Management,2019-06-17,"Seattle, WA, United States",java,java,B
+156,4,Head of Professional Services,part-time,Program Management,2019-06-18,"Sunnyvale, CA, United States",java,java,B
+157,4,Partner Sales Engineer,part-time,Program Management,2019-06-19,"Shanghai, China",javascript,javascript,B
+158,4,Presales Manager,full-time,Program Management,2019-06-20,"Paris, France",javascript,javascript,B
+159,4,Technical Solutions Consultant,part-time,Manufacturing & Supply Chain,2019-06-21,"Mountain View, CA, United States",javascript,javascript,M
+160,4,Technical Solutions Consultant,part-time,Manufacturing & Supply Chain,2019-06-22,"Salt Lake City, UT, United States",javascript,javascript,M
+161,4,Field Sales Representative,full-time,Manufacturing & Supply Chain,2019-06-23,Singapore,javascript,javascript,B
+162,4,Developer Advocate,full-time,Manufacturing & Supply Chain,2019-06-24,"Los Angeles, CA, United States",javascript,javascript,B
+163,4,Data Analyst,part-time,Manufacturing & Supply Chain,2019-06-25,"Mumbai, India",javascript,javascript,P
+164,4,Supplier Development Engineer (SDE),part-time,Product & Customer Support,2019-06-26,"Hamburg, Germany",javascript,javascript,B
+165,4,Data Analyst,part-time,User Experience & Design,2019-06-27,"Berlin, Germany",javascript,javascript,B
+166,4,Audio Visual (AV) Deployments,full-time,Program Management,2019-06-28,"Portland, OR, United States",javascript,javascript,B
+167,4,Survey Lead,full-time,Program Management,2019-06-29,"Tokyo, Japan",javascript,javascript,B
+168,4,Global Supply Chain Manager,full-time,Program Management,2019-06-30,"Seattle, WA, United States",javascript,javascript,P
+169,4,Developer Advocate,full-time,Partnerships,2019-07-01,"Seoul, South Korea",javascript,javascript,B
+170,4,Quantitative Analyst,part-time,Data Center & Network,2019-07-02,"Seattle, WA, United States",javascript,javascript,M
+171,4,Developer Advocate,part-time,Data Center & Network,2019-07-03,"Seattle, WA, United States",javascript,javascript,M
+172,4,Quantitative Analyst,full-time,User Experience & Design,2019-07-04,"Sunnyvale, CA, United States",javascript,javascript,B
+173,4,Supplier Development Engineer (SDE),full-time,Hardware Engineering,2019-07-05,"Seattle, WA, United States",javascript,javascript,B
+174,4,Technical Program Manager,full-time,Business Strategy,2019-07-06,"Seattle, WA, United States",javascript,javascript,P
+175,4,Data Analyst,full-time,Business Strategy,2019-07-07,"Seattle, WA, United States",php,php,B
+176,4,Head of Professional Services,part-time,Business Strategy,2019-07-08,"Seattle, WA, United States",php,php,B
+177,4,Partner Sales Engineer,part-time,Data Center & Network,2019-07-09,"Sunnyvale, CA, United States",php,php,B
+178,4,Presales Manager,full-time,Data Center & Network,2019-07-10,"Sunnyvale, CA, United States",php,php,B
+179,4,Technical Solutions Consultant,part-time,Technical Solutions,2019-07-11,"Sunnyvale, CA, United States",php,php,B
+180,4,Technical Solutions Consultant,part-time,Program Management,2019-07-12,"Sunnyvale, CA, United States",php,php,M
+181,4,Field Sales Representative,full-time,Program Management,2019-07-13,"Sunnyvale, CA, United States",php,php,M
+182,4,Developer Advocate,full-time,Business Strategy,2019-07-14,"Shanghai, China",php,php,B
+183,4,Data Analyst,part-time,Business Strategy,2019-07-15,"Paris, France",php,php,B
+184,4,Supplier Development Engineer (SDE),part-time,Business Strategy,2019-07-16,"Mountain View, CA, United States",php,php,P
+185,4,Data Analyst,part-time,Product & Customer Support,2019-07-17,"Salt Lake City, UT, United States",php,php,B
+186,4,Audio Visual (AV) Deployments,full-time,Technical Solutions,2019-07-18,Singapore,php,php,B
+187,4,Survey Lead,full-time,Technical Solutions,2019-07-19,"Los Angeles, CA, United States",sql,sql,B
+188,4,Global Supply Chain Manager,full-time,Technical Solutions,2019-07-20,"Mumbai, India",sql,sql,B
+189,4,Developer Advocate,full-time,Technical Solutions,2019-07-21,"Hamburg, Germany",sql,sql,P
+190,4,Quantitative Analyst,part-time,Technical Solutions,2019-05-20,"Berlin, Germany",sql,sql,B
+191,4,Developer Advocate,part-time,Technical Solutions,2019-05-21,"Portland, OR, United States",sql,sql,M
+192,5,Quantitative Analyst,full-time,Hardware Engineering,2019-05-22,"Tokyo, Japan",sql,sql,M
+193,5,Supplier Development Engineer (SDE),full-time,Sales Operations,2019-05-23,"Seattle, WA, United States",sql,sql,B
+194,5,Technical Program Manager,full-time,Data Center & Network,2019-05-24,"Seoul, South Korea",sql,sql,B
+195,5,Data Analyst,full-time,Data Center & Network,2019-05-25,"Seattle, WA, United States",sql,sql,P
+196,5,Head of Professional Services,part-time,Hardware Engineering,2019-05-26,"Seattle, WA, United States",sql,sql,B
+197,5,Partner Sales Engineer,part-time,Program Management,2019-05-27,"Sunnyvale, CA, United States",sql,sql,B
+198,5,Presales Manager,full-time,Program Management,2019-05-28,"Seattle, WA, United States",java,java,B
+199,5,Technical Solutions Consultant,part-time,Program Management,2019-05-29,"Seattle, WA, United States",java,java,B
+200,5,Technical Solutions Consultant,part-time,Program Management,2019-05-30,"Seattle, WA, United States",java,java,B
+201,5,Field Sales Representative,full-time,Program Management,2019-05-31,"Sunnyvale, CA, United States",java,java,M
+202,5,Developer Advocate,full-time,Data Center & Network,2019-06-01,"Shanghai, China",java,java,M
+203,5,Data Analyst,part-time,Data Center & Network,2019-06-02,"Paris, France",java,java,B
+204,5,Supplier Development Engineer (SDE),part-time,User Experience & Design,2019-06-03,"Mountain View, CA, United States",java,java,B
+205,5,Data Analyst,part-time,Partnerships,2019-06-04,"Salt Lake City, UT, United States",java,java,P
+206,5,Audio Visual (AV) Deployments,full-time,Hardware Engineering,2019-06-05,Singapore,java,java,B
+207,5,Survey Lead,full-time,Business Strategy,2019-06-06,"Los Angeles, CA, United States",java,java,B
+208,5,Global Supply Chain Manager,full-time,Manufacturing & Supply Chain,2019-06-07,"Mumbai, India",java,java,B
+209,5,Developer Advocate,full-time,Manufacturing & Supply Chain,2019-06-08,"Hamburg, Germany",java,java,B
+210,5,Quantitative Analyst,part-time,Technical Infrastructure,2019-06-09,"Berlin, Germany",java,java,P
+211,5,Developer Advocate,part-time,Technical Infrastructure,2019-06-10,"Portland, OR, United States",sas,sas,B
+212,5,Quantitative Analyst,full-time,Data Center & Network,2019-06-11,"Tokyo, Japan",sas,sas,M
+213,5,Supplier Development Engineer (SDE),full-time,Data Center & Network,2019-06-12,"Seattle, WA, United States",sas,sas,M
+214,5,Technical Program Manager,full-time,Technical Solutions,2019-06-13,"Seoul, South Korea",sas,sas,B
+215,5,Data Analyst,full-time,Technical Solutions,2019-06-14,"Seattle, WA, United States",sas,sas,B
+216,5,Head of Professional Services,part-time,Technical Solutions,2019-06-15,"Seattle, WA, United States",sas,sas,P
+217,5,Partner Sales Engineer,part-time,Technical Solutions,2019-06-16,"Sunnyvale, CA, United States",sas,sas,B
+218,6,Presales Manager,full-time,Technical Solutions,2019-06-17,"Seattle, WA, United States",sas,sas,B
+219,6,Technical Solutions Consultant,part-time,Sales Operations,2019-06-18,"Seattle, WA, United States",sas,sas,B
+220,6,Technical Solutions Consultant,part-time,Data Center & Network,2019-06-19,"Seattle, WA, United States",sas,sas,B
+221,6,Field Sales Representative,full-time,Data Center & Network,2019-06-20,"Seattle, WA, United States",sas,sas,B
+222,6,Developer Advocate,full-time,Hardware Engineering,2019-06-21,"Sunnyvale, CA, United States",sas,sas,M
+223,6,Data Analyst,part-time,Program Management,2019-06-22,"Sunnyvale, CA, United States",sas,sas,M
+224,6,Supplier Development Engineer (SDE),part-time,Program Management,2019-06-23,"Sunnyvale, CA, United States",sas,sas,B
+225,6,Data Analyst,part-time,Business Strategy,2019-06-24,"Sunnyvale, CA, United States",sas,sas,B
+226,6,Audio Visual (AV) Deployments,full-time,Technical Infrastructure,2019-06-25,"Sunnyvale, CA, United States",sql,sql,P
+227,6,Survey Lead,full-time,Technical Infrastructure,2019-06-26,"Shanghai, China",sql,sql,B
+228,6,Global Supply Chain Manager,full-time,Sales Operations,2019-06-27,"Paris, France",sql,sql,B
+229,6,Developer Advocate,full-time,Product & Customer Support,2019-06-28,"Mountain View, CA, United States",sql,sql,B
+230,6,Quantitative Analyst,part-time,User Experience & Design,2019-06-29,"Salt Lake City, UT, United States",sql,sql,B
+231,6,Developer Advocate,part-time,Technical Solutions,2019-06-30,Singapore,sql,sql,P
+232,6,Quantitative Analyst,full-time,Technical Solutions,2019-07-01,"Los Angeles, CA, United States",sql,sql,B
+233,6,Supplier Development Engineer (SDE),full-time,Business Strategy,2019-07-02,"Mumbai, India",sql,sql,M
+234,6,Technical Program Manager,full-time,Business Strategy,2019-07-03,"Hamburg, Germany",sql,sql,M
+235,6,Data Analyst,full-time,Business Strategy,2019-07-04,"Berlin, Germany",sql,sql,B
+236,6,Head of Professional Services,part-time,Data Center & Network,2019-07-05,"Portland, OR, United States",sql,sql,B
+237,6,Partner Sales Engineer,part-time,Data Center & Network,2019-07-06,"Tokyo, Japan",java,java,P
+238,6,Presales Manager,full-time,Data Center & Network,2019-07-07,"Seattle, WA, United States",java,java,B
+239,6,Technical Solutions Consultant,part-time,Partnerships,2019-07-08,"Seoul, South Korea",java,java,B
+240,6,Technical Solutions Consultant,part-time,Partnerships,2019-07-09,"Seattle, WA, United States","java, c++","java, c++",B
+241,6,Field Sales Representative,full-time,Sales Operations,2019-07-10,"Seattle, WA, United States","java, c++","java, c++",B
+242,7,Developer Advocate,full-time,Hardware Engineering,2019-07-11,"Sunnyvale, CA, United States","java, c++","java, c++",B
+243,7,Data Analyst,part-time,Program Management,2019-07-12,"Seattle, WA, United States","java, c++","java, c++",M
+244,7,Supplier Development Engineer (SDE),part-time,Program Management,2019-07-13,"Seattle, WA, United States","java, c++","java, c++",M
+245,7,Data Analyst,part-time,Technical Infrastructure,2019-07-14,"Seattle, WA, United States","java, c++","java, c++",B
+246,7,Audio Visual (AV) Deployments,full-time,Technical Infrastructure,2019-07-15,"Sunnyvale, CA, United States","java, c++","java, c++",B
+247,7,Survey Lead,full-time,Technical Infrastructure,2019-07-16,"Shanghai, China","java, c++","java, c++",P
+248,7,Global Supply Chain Manager,full-time,Partnerships,2019-07-17,"Paris, France","java, c++","java, c++",B
+249,7,Developer Advocate,full-time,Business Strategy,2019-07-18,"Mountain View, CA, United States","java, c++","java, c++",B
+250,7,Quantitative Analyst,part-time,Business Strategy,2019-07-19,"Salt Lake City, UT, United States",java,java,B
+251,7,Developer Advocate,part-time,Business Strategy,2019-07-20,Singapore,java,java,B
+252,7,Quantitative Analyst,full-time,Business Strategy,2019-07-21,"Los Angeles, CA, United States",java,java,P
+253,7,Supplier Development Engineer (SDE),full-time,Business Strategy,2019-05-20,"Mumbai, India",java,java,B
+254,7,Technical Program Manager,full-time,Hardware Engineering,2019-05-21,"Hamburg, Germany",java,java,M
+255,7,Data Analyst,full-time,Hardware Engineering,2019-05-22,"Berlin, Germany",java,java,M
+256,7,Head of Professional Services,part-time,Hardware Engineering,2019-05-23,"Portland, OR, United States",java,java,B
+257,7,Partner Sales Engineer,part-time,Hardware Engineering,2019-05-24,"Tokyo, Japan",java,java,B
+258,7,Presales Manager,full-time,Technical Infrastructure,2019-05-25,"Seattle, WA, United States",java,java,P
+259,7,Technical Solutions Consultant,part-time,Technical Infrastructure,2019-05-26,"Seoul, South Korea",java,java,B
+260,7,Technical Solutions Consultant,part-time,Sales Operations,2019-05-27,"Seattle, WA, United States",java,java,B
+261,7,Field Sales Representative,full-time,Data Center & Network,2019-05-28,"Seattle, WA, United States",java,java,B
+262,7,Developer Advocate,full-time,Data Center & Network,2019-05-29,"Sunnyvale, CA, United States",typescript,typescript,B
+263,7,Data Analyst,part-time,User Experience & Design,2019-05-30,"Seattle, WA, United States",typescript,typescript,B
+264,7,Supplier Development Engineer (SDE),part-time,Product & Customer Support,2019-05-31,"Seattle, WA, United States",typescript,typescript,M
+265,7,Data Analyst,part-time,Program Management,2019-06-01,"Seattle, WA, United States",typescript,typescript,M
+266,8,Audio Visual (AV) Deployments,full-time,Program Management,2019-06-02,"Seattle, WA, United States",typescript,typescript,B
+267,8,Survey Lead,full-time,Sales Operations,2019-06-03,"Sunnyvale, CA, United States",typescript,typescript,B
+268,8,Global Supply Chain Manager,full-time,Hardware Engineering,2019-06-04,"Sunnyvale, CA, United States",typescript,typescript,P
+269,8,Developer Advocate,full-time,Business Strategy,2019-06-05,"Sunnyvale, CA, United States",typescript,typescript,B
+270,8,Quantitative Analyst,part-time,Manufacturing & Supply Chain,2019-06-06,"Sunnyvale, CA, United States",typescript,typescript,B
+271,8,Developer Advocate,part-time,Manufacturing & Supply Chain,2019-06-07,"Sunnyvale, CA, United States",typescript,typescript,B
+272,8,Quantitative Analyst,full-time,Technical Infrastructure,2019-06-08,"Shanghai, China",typescript,typescript,B
+273,8,Supplier Development Engineer (SDE),full-time,Technical Infrastructure,2019-06-09,"Paris, France",typescript,typescript,P
+274,8,Technical Program Manager,full-time,Technical Infrastructure,2019-06-10,"Mountain View, CA, United States",typescript,typescript,B
+275,8,Data Analyst,full-time,Technical Infrastructure,2019-06-11,"Salt Lake City, UT, United States",typescript,typescript,M
+276,8,Head of Professional Services,part-time,Technical Infrastructure,2019-06-12,Singapore,typescript,typescript,M
+277,8,Partner Sales Engineer,part-time,Technical Infrastructure,2019-06-13,"Los Angeles, CA, United States",typescript,typescript,B
+278,8,Presales Manager,full-time,Data Center & Network,2019-06-14,"Mumbai, India",typescript,typescript,B
+279,8,Technical Solutions Consultant,part-time,Data Center & Network,2019-06-15,"Hamburg, Germany",typescript,typescript,P
+280,8,Technical Solutions Consultant,part-time,Partnerships,2019-06-16,"Berlin, Germany",typescript,typescript,B
+281,8,Field Sales Representative,full-time,Partnerships,2019-06-17,"Portland, OR, United States",typescript,typescript,B
+282,8,Developer Advocate,full-time,Program Management,2019-06-18,"Tokyo, Japan",typescript,typescript,B
+283,8,Data Analyst,part-time,Program Management,2019-06-19,"Seattle, WA, United States",typescript,typescript,B
+284,8,Supplier Development Engineer (SDE),part-time,Business Strategy,2019-06-20,"Seoul, South Korea",java,java,B
+285,8,Data Analyst,part-time,Business Strategy,2019-06-21,"Seattle, WA, United States",java,java,M
+286,8,Audio Visual (AV) Deployments,full-time,Business Strategy,2019-06-22,"Seattle, WA, United States",java,java,M
+287,8,Survey Lead,full-time,Partnerships,2019-06-23,"Sunnyvale, CA, United States",java,java,B
+288,8,Global Supply Chain Manager,full-time,Partnerships,2019-06-24,"Seattle, WA, United States",java,java,B
+289,8,Developer Advocate,full-time,Partnerships,2019-06-25,"Seattle, WA, United States",java,java,P
+290,1,Quantitative Analyst,part-time,Hardware Engineering,2019-06-26,"Seattle, WA, United States",java,java,B
+291,1,Developer Advocate,part-time,User Experience & Design,2019-06-27,"Sunnyvale, CA, United States",java,java,B
+292,1,Quantitative Analyst,full-time,Technical Solutions,2019-06-28,"Shanghai, China",java,java,B
+293,1,Supplier Development Engineer (SDE),full-time,Technical Solutions,2019-06-29,"Paris, France",java,java,B
+294,1,Technical Program Manager,full-time,Technical Solutions,2019-06-30,"Mountain View, CA, United States",java,java,P
+295,1,Data Analyst,full-time,Technical Solutions,2019-07-01,"Salt Lake City, UT, United States",java,java,B
+296,1,Head of Professional Services,part-time,Technical Solutions,2019-07-02,Singapore,java,java,M
+297,1,Partner Sales Engineer,part-time,Technical Solutions,2019-07-03,"Los Angeles, CA, United States",c++,c++,M
+298,1,Presales Manager,full-time,Technical Solutions,2019-07-04,"Mumbai, India",c++,c++,B
+299,1,Technical Solutions Consultant,part-time,Program Management,2019-07-05,"Hamburg, Germany",c++,c++,B
+300,1,Technical Solutions Consultant,part-time,Program Management,2019-07-06,"Berlin, Germany",c++,c++,P
+301,1,Field Sales Representative,full-time,Technical Infrastructure,2019-07-07,"Portland, OR, United States",c++,c++,B
+302,1,Developer Advocate,full-time,Technical Infrastructure,2019-07-08,"Tokyo, Japan",c++,c++,B
+303,1,Data Analyst,part-time,Technical Infrastructure,2019-07-09,"Seattle, WA, United States",c++,c++,B
+304,1,Supplier Development Engineer (SDE),part-time,Product & Customer Support,2019-07-10,"Seoul, South Korea",c++,c++,B
+305,2,Data Analyst,part-time,Business Strategy,2019-07-11,"Seattle, WA, United States",c++,c++,B
+306,2,Audio Visual (AV) Deployments,full-time,Sales Operations,2019-07-12,"Seattle, WA, United States",c++,c++,M
+307,2,Survey Lead,full-time,Hardware Engineering,2019-07-13,"Sunnyvale, CA, United States",java,java,M
+308,2,Global Supply Chain Manager,full-time,Manufacturing & Supply Chain,2019-07-14,"Seattle, WA, United States",java,java,B
+309,2,Developer Advocate,full-time,Manufacturing & Supply Chain,2019-07-15,"Seattle, WA, United States",java,java,B
+310,2,Quantitative Analyst,part-time,Technical Infrastructure,2019-07-16,"Seattle, WA, United States",java,java,P
+311,2,Developer Advocate,part-time,Sales Operations,2019-07-17,"Seattle, WA, United States",java,java,B
+312,2,Quantitative Analyst,full-time,Partnerships,2019-07-18,"Sunnyvale, CA, United States",java,java,B
+313,2,Supplier Development Engineer (SDE),full-time,Product & Customer Support,2019-07-19,"Sunnyvale, CA, United States",java,java,B
+314,2,Technical Program Manager,full-time,Business Strategy,2019-07-20,"Sunnyvale, CA, United States",java,java,B
+315,3,Data Analyst,full-time,Technical Writing,2019-07-21,"Sunnyvale, CA, United States",java,java,P
+316,3,Head of Professional Services,part-time,Data Center & Network,2019-07-22,"Sunnyvale, CA, United States",java,java,B
+317,3,Partner Sales Engineer,part-time,Data Center & Network,2019-07-23,"Shanghai, China",java,java,M
+318,3,Presales Manager,full-time,Partnerships,2019-07-24,"Paris, France",java,java,M
+319,3,Technical Solutions Consultant,part-time,Program Management,2019-07-25,"Mountain View, CA, United States",java,java,B
+320,3,Technical Solutions Consultant,part-time,Program Management,2019-07-26,"Salt Lake City, UT, United States",sql,sql,B
+321,3,Field Sales Representative,part-time,User Experience & Design,2019-07-27,Singapore,sql,sql,P
+322,3,Developer Advocate,full-time,Hardware Engineering,2019-07-28,"Los Angeles, CA, United States",sql,sql,B
+323,4,Data Analyst,part-time,Software Engineering,2019-07-29,"Mumbai, India",sql,sql,B
+324,4,Supplier Development Engineer (SDE),part-time,Software Engineering,2019-07-30,"Hamburg, Germany",sql,sql,B
+325,4,Data Analyst,part-time,Software Engineering,2019-07-31,"Berlin, Germany",c,c,B
+326,4,Audio Visual (AV) Deployments,full-time,Product & Customer Support,2019-08-01,"Portland, OR, United States",c,c,B

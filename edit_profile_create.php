@@ -41,7 +41,7 @@
           Gender: <input class="form-control" type="text" name="Gender" placeholder="M / F" value=<?php echo $row['Gender']?>>
       </div>
       <div class="form-group">
-          <span style="color:red">*</span>Phone Number: <input class="form-control" type="text" name="Phone_no" placeholder="10 digits number" length="10" required="required" value=<?php echo $row['Phone_no']?>>
+          <span style="color:red">*</span>Phone Number: <input class="form-control" type="text" name="Phone_no" placeholder="digital number" required="required" value=<?php echo $row['Phone_no']?>>
       </div>
       <div class="form-group">
           <span style="color:red">*</span>Email Address: <input class="form-control" type="text" name="Email_addr" placeholder="email@ur.rochester.edu" required="required" value=<?php echo $row['Email_addr']?>>
@@ -87,13 +87,13 @@
 	        Gender: <input class="form-control" type="text" name="Gender" placeholder="M / F" >
 	    </div>
 	    <div class="form-group">
-	        <span style="color:red">*</span>Phone Number: <input class="form-control" type="text" name="Phone_no" placeholder="10 digits number" length="10" required="required">
+	        <span style="color:red">*</span>Phone Number: <input class="form-control" type="text" name="Phone_no" placeholder="digital number"  required="required">
 	    </div>
 	    <div class="form-group">
 	        <span style="color:red">*</span>Email Address: <input class="form-control" type="text" name="Email_addr" placeholder="email@ur.rochester.edu" required="required">
 	    </div>
 	    <div class="form-group">
-	        Address: <input class="form-control" type="text" name="Address" placeholder="your local address (3 digits number)">
+	        Address: <input class="form-control" type="text" name="Address" placeholder="your local address">
 	    </div>
 	    <div class="form-group">
 	        Education Background: <input class="form-control" type="text" name="Education_background" placeholder="B / M / P">

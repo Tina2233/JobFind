@@ -19,20 +19,20 @@
         Company ID: <input class="form-control" type="number" name="Company_id" placeholder="Company_id" min="1" step="1">
     </div> -->
 	<div class="form-group">
-	    <span style="color:red">*</span>Position: <input class="form-control" type="text" name="Position" placeholder="eg. systems_programmer" required="required">
+	    <span style="color:red">*</span>Position: <input class="form-control" type="text" name="Position" placeholder="eg. Data Analyst" required="required">
 	    
 	</div>
 	<div class="form-group">
 	    <span style="color:red">*</span>Property: <input class="form-control" type="text" name="Property" placeholder="full-time / part-time" required="required">
 	</div>
 	<div class="form-group">
-	    Category: <input class="form-control" type="text" name="Category" placeholder="eg. engineering">
+	    Category: <input class="form-control" type="text" name="Category" placeholder="eg. Program Management">
 	</div>
     <div class="form-group">
         <span style="color:red">*</span>Application Deadline: <input class="form-control" type="date" name="Application_deadline" placeholder="YYYY-MM-DD" required="required">
     </div>
     <div class="form-group">
-	    Location: <input class="form-control" type="text" name="Location" placeholder="eg. Rochester">
+	    Location: <input class="form-control" type="text" name="Location" placeholder="eg. Salt">
 	</div>
 
 	<div class="form-group">

@@ -43,7 +43,9 @@ $array = explode(',', $Skills_ql);
 
 $sql = "SELECT * FROM JOB, COMPANY where JOB.Company_id = COMPANY.Company_id AND ( Job_id < 0 ";
 foreach($array as $v){
-    $sql = $sql."OR Skills_rq LIKE '"%$v%"' OR Description like '"%$v%"'";
+  // echo "$v";
+    $sql = $sql."OR Skills_rq LIKE '%".$v."%' ";
+    // $sql = $sql."OR Skills_rq LIKE '%"$v"%' ";
 }
 $sql = $sql." );";
 // $sql = "SELECT * FROM JOB, COMPANY where JOB.Company_id = $Company_id AND JOB.Company_id = COMPANY.Company_id;";
